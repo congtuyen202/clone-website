@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang chủ</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/banner.css">
+    <link rel="stylesheet" href="style/main.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" /> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .main_gt {
+            width: 1100px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 350px 1fr;
+        }
+
+        .left_cv {
+            height: auto;
+            width: 100%;
+            color: #bbbdbf;
+            background: #284350;
+            padding: 10px;
+        }
+
+        .box_img {
+            width: 100%;
+            margin-bottom: 10px;
+        }
+
+        .box_img>img {
+            border: 3px solid #ffc628;
+        }
+
+        .contact {
+            margin: 0 auto;
+            width: 100%;
+        }
+
+        .mail {
+            display: grid;
+            grid-template-columns: 25px 1fr;
+            color: #bbbdbf;
+            font-size: 14px;
+            font-weight: 400;
+            gap: 5px;
+        }
+
+        .mail>i {
+            text-align: center;
+            margin: auto 0;
+            color: beige;
+        }
+
+        .left_cv .contact>h3 {
+            color: #f1f1f1;
+            text-transform: uppercase;
+            margin: 10px 0;
+            font-size: 18px;
+            border-bottom: 1px solid #ffc628;
+
+        }
+
+        .left_cv .contact .box_contact {
+            line-height: 30px;
+            margin: 10px 0;
+        }
+
+        .left_cv .contact h4 {
+            font-size: 12px;
+            text-transform: capitalize;
+            color: #f1f1f1;
+        }
+
+        .contact .box_contact .ky_nang {
+            font-size: 14px;
+
+        }
+
+        .text-first {
+            text-transform: capitalize;
+        }
+
+        .text-first::first-letter {
+            text-transform: capitalize;
+        }
+
+        .main_gt .right_cv {
+            border-top-right-radius: 3px;
+            border-bottom-right-radius: 3px;
+            background: white !important;
+        }
+
+        .main_gt .right_cv .box_cv {
+            border-top: 1px solid #ffc628;
+            position: relative;
+            padding-left: 35px;
+            color: #000000eb;
+            font-size: 14px;
+            padding-right: 30px;
+            text-align: justify;
+        }
+
+        .main_gt .right_cv .box_cv:first-child {
+            padding-top: 20px;
+            border-top: none;
+            text-transform: uppercase;
+            padding-bottom: 20px;
+        }
+
+        .main_gt .right_cv .box_cv .name {
+            font-size: 28px;
+            color: #000000eb;
+            margin-bottom: 20px;
+        }
+
+        .main_gt .right_cv .box_cv:first-child>h5 {
+            font-size: 24px;
+            color: #000000eb;
+            margin-bottom: 20px;
+        }
+
+        .box_cv:first-child h5 {
+            border: none;
+            border-radius: none;
+        }
+
+        .box_cv h3 {
+            border: 1px solid #ffbb00;
+            border-radius: 8px;
+            width: 250px;
+            text-align: center;
+            padding: 8px 5px;
+            position: absolute;
+            top: -20px;
+            background: white;
+        }
+
+        .box_cv .mt {
+            margin: 40px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <div id="header" class="header">
+            <div id="top_header">
+                <div class="top_header_main">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <img src="img/google.png" alt="google">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="img/youtube.png" alt="youtube">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="img/facebook.png" alt="facebook">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="lien-he.html" class="top_right">
+                                Liên hệ
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div id="main_header">
+                <a href="index.html"><img src="img/logo.png" alt="logo"></a>
+                <ul>
+                    <li>
+                        <a href="gioi-thieu.html">Giới thiệu</a>
+                    </li>
+                    <li>
+                        <a href="du-an.html">Dự án</a>
+                    </li>
+                    <li>
+                        <a href="van-hoa.html">Văn hóa VNP</a>
+                    </li>
+                    <li>
+                        <a href="con-nguoi.html">Con người VNP</a>
+                    </li>
+                    <li>
+                        <a href="tuyen-dung.html">Tuyển dụng</a>
+                    </li>
+                    <li>
+                        <a href="tin-tuc.html">Tin tức</a>
+                    </li>
+                    <li>
+                        <a href="doi-tac.html">Đối tác</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div id="main">
+            <div class="main" style="background: #bbbdbf; padding: 10px 0;">
+                <div class="main_gt">
+                    <div class="left_cv">
+                        <div class="box_img">
+                            <img src="./img/info_founder.png" alt="" style="width: 100%;">
+                        </div>
+                        <div class="contact">
+                            <h3>Thông tin cá nhân</h3>
+                            <div class="box_contact">
+                                <div class="mail">
+                                    <i class="fa-solid fa-envelope"></i>
+                                    <p>vucongtuyen.hn@gmail.com</p>
+                                </div>
+                                <div class="mail">
+                                    <i class="fa-solid fa-envelope"></i>
+                                    <p>vucongtuyen.hn@gmail.com</p>
+                                </div>
+                                <div class="mail">
+                                    <i class="fa-solid fa-envelope"></i>
+                                    <p>vucongtuyen.hn@gmail.com</p>
+                                </div>
+                                <div class="mail">
+                                    <i class="fa-solid fa-envelope"></i>
+                                    <p>vucongtuyen.hn@gmail.com</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="contact">
+                            <h3>CÁC KỸ NĂNG</h3>
+                            <div class="box_contact">
+                                <div class="ky_nang">
+                                    <h4 class="text-first">ngôn ngữ lập trình</h4>
+                                    <p>PHP (Laravel), Javascript, Angular, HTML CSS</p>
+                                </div>
+                                <div class="ky_nang">
+                                    <h4 class="text-first">làm việc nhóm</h4>
+                                    <p>PHP (Laravel), Javascript, Angular, HTML CSS</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="contact">
+                            <h3>CHỨNG CHỈ</h3>
+                            <div class="box_contact">
+                                <div class="ky_nang">
+                                    <h4>2022</h4>
+                                    <p> English Topnotch 2.2 tại Trường Cao đẳng FPT Polytechnic (Tương đương Ielts 4.5)
+                                    </p>
+                                </div>
+                                <div class="ky_nang">
+                                    <h4>2023</h4>
+                                    <p> English Topnotch 2.2 tại Trường Cao đẳng FPT Polytechnic (Tương đương Ielts 4.5)
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="contact">
+                            <h3>SỞ THÍCH</h3>
+                            <div class="box_contact">
+                                <div class="ky_nang">
+                                    <p>Thích nghe nhạc, học hỏi cái mới, đi du lịch.</p>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="contact">
+                            <h3>NGƯỜI THAM CHIẾU</h3>
+                            <div class="box_contact">
+                                <div class="ky_nang">
+                                    <p>NGƯỜI THAM CHIẾU</p>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="contact">
+                            <h3>GIẢI THƯỞNG</h3>
+                            <div class="box_contact">
+                                <div class="ky_nang">
+                                    <div class="date">2022</div>
+                                    <p>Thành viên xuất sắc của nhóm</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="contact">
+                            <h3>THÔNG TIN THÊM</h3>
+                            <div class="box_contact">
+                                <div class="ky_nang">
+                                    <p></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="right_cv">
+                        <div class="box_cv">
+                            <h2 class="name"> VŨ CÔNG TUYỀN </h2>
+                            <h5>BACK-END DEVELOPER</h5>
+                        </div>
+                        <div class="box_cv mt_cv">
+                            <h3>
+                                <p>MỤC TIÊU NGHỀ NGHIỆP</p>
+                            </h3>
+                            <span class="bd_cv"></span>
+                            <p class="mt">Ngắn hạn: Trong 1 năm tới, em sẽ trở thành một lập trình viên Back-end(PHP)
+                                chuyên
+                                nghiệp, tích lũy nhiều kinh nghiệm trong quá trình làm việc với các dự án.- Dài hạn:
+                                Trong vòng từ 2-3 năm tới, em sẽ trở thành lập trình viên fullstack, học hỏi thêm nhiều
+                                ngôn ngữ cũng như framework liên quan.</p>
+                        </div>
+                        <div class="box_cv">
+                            <h3>KINH NGHIỆM LÀM VIỆC</h3>
+                            <span class="bd_cv"></span>
+                            <div class="box_2_cv">
+                                <div class="mt">
+                                    <div class="title_cv">
+                                        <i class="fa-solid fa-briefcase"></i>
+                                        <h4>VỊ TRÍ: LẬP TRÌNH VIÊN BACK-END (CODE PHP THUẦN)</h4>
+                                        <span>// <strong>10/2021</strong>- <strong>01/2022</strong></span>
+                                    </div>
+                                    <div class="h4">Website bán thời trang Adidas</div>
+                                    <div class="mt_cv">
+                                        <p>- Số lượng thành viên: 3 người</p>
+                                        <p>- Mô tả công việc: Sử dụng công cụ Visual StudioCode code giao diện và code
+                                            chức
+                                            năng;</p>
+                                        <p>- Công nghệ sử dụng: PHP, MySQL, Bootstrap, HTML CSS </p>
+                                        <p>- Githup: github.com/congtuyen791/TTA_du_an_1</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+            <div id="back_to_top">
+                <img src="img/left-arrow.svg" alt="">
+            </div>
+            <div class="footer">
+                <div class="footer_slide">
+                    <div id="box_slide">
+                        <p><a href="#"><img src="img/footer_slide/VG-col.png" alt=""></a></p>
+                        <p><a href="#"><img src="img/footer_slide/baokim-col.png" alt=""></a></p>
+                        <p><a href="#"><img src="img/footer_slide/nhanh-col.png" alt=""></a></p>
+                        <p><a href="#"><img src="img/footer_slide/VG-col.png" alt=""></a></p>
+                        <p><a href="#"><img src="img/footer_slide/baokim-col.png" alt=""></a></p>
+                        <p><a href="#"><img src="img/footer_slide/nhanh-col.png" alt=""></a></p>
+                        <p><a href="#"><img src="img/footer_slide/VG-col.png" alt=""></a></p>
+                        <p><a href="#"><img src="img/footer_slide/baokim-col.png" alt=""></a></p>
+                    </div>
+                </div>
+                <div class="footer_bottom">
+                    <p>Công ty Cổ phần VNP Group. Số GCNDT: 011032001615, cấp ngày 21/06/2012, nơi cấp: UBND thành phố
+                        Hà Nội.</p>
+                    <p>Trụ sở chính: Số 102, phố Thái Thịnh, phường Trung Liệt, quận Đống Đa, Hà Nội - Chi nhánh Hồ Chí
+                        Minh: Đường Lữ Gia, Phường 15, Quận 11, Hồ Chí Minh</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <!-- <script src="js/wow.min.js"></script> -->
+    <script src="js/back_to_top.js"></script>
+    <!-- <script>
+        new WOW().init();
+    </script> -->
+</body>
+
+</html>
